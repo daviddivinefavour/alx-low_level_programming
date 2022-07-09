@@ -22,6 +22,10 @@ else if ((i % 3) == 0)
 {
 printf("%s ", "Fizz");
 }
+else if (((i % 3)) == 0 && ((i % 5) == 0))
+{
+printf("%s ", "FizzBuzz");
+}
 }
 printf("\n");
 return (0);
